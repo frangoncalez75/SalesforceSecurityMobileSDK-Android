@@ -1,0 +1,46 @@
+{
+  "name": "SalesforceMobileSDK-Android",
+  "version": "10.2.0",
+  "description": "Salesforce Mobile SDK for Android",
+  "keywords": [
+    "mobilesdk",
+    "android",
+    "salesforce",
+    "mobile",
+    "sdk"
+  ],
+  "homepage": "https://dev.azure.com/unilever-mobility-salesforce-sdk/SalesforceMobileSDK-Android/_git/SalesforceMobileSDK-Android2",
+  "bugs": "https://dev.azure.com/unilever-mobility-salesforce-sdk/SalesforceMobileSDK-Android/issues",
+  "licenses": [
+    {
+      "type": "Salesforce.com Mobile SDK License",
+      "url": "https://dev.azure.com/unilever-mobility-salesforce-sdk/SalesforceMobileSDK-Android/blob/master/LICENSE.md"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://unilever-mobility-salesforce-sdk@dev.azure.com/unilever-mobility-salesforce-sdk/SalesforceMobileSDK-Android/_git/SalesforceMobileSDK-Android2"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "author": {
+    "name": "Kevin Hawkins",
+    "email": "khawkins@salesforce.com"
+  },
+  "contributors": [
+    {
+      "name": "Wolfgang Mathurin",
+      "email": "wmathurin@salesforce.com"
+    },
+    {
+      "name": "Bharath Hariharan",
+      "email": "bhariharan@salesforce.com"
+    }
+  ],
+  "files": [
+    "libs"
+  ] ,
+  "dependencies": {
+  }
+}
