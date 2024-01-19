@@ -6,6 +6,10 @@
 
 You have arrived at the source repository for the Salesforce Security Mobile SDK for Android, a clone for Salesforce Mobile SDK for Android with adjusts to close security vunerabilities. Welcome! 
 
+!IMORTANT!
+If you are looking for Salesforce Mobile SDK for Android, follow this link:
+https://github.com/forcedotcom/SalesforceMobileSDK-Android
+
 Installation (do this first - really)
 ==
 
