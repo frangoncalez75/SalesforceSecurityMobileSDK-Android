@@ -4,6 +4,7 @@
     android:id="@+id/sf__auth_container_phone"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:filterTouchesWhenObscured="true"
     android:windowDrawsSystemBarBackgrounds="true">
 
     <WebView android:id="@+id/sf__oauth_webview"

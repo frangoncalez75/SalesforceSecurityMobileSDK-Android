@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context=".ui.ScreenLockActivity"
     android:background="?android:colorBackground"
+    android:filterTouchesWhenObscured="true"
     android:fitsSystemWindows="true">
 
     <Button
