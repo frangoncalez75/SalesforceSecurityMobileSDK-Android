@@ -128,7 +128,7 @@ public class LoginActivity extends AccountAuthenticatorActivity
         final WebSettings webSettings = webView.getSettings();
         webSettings.setUseWideViewPort(true);
         webSettings.setLayoutAlgorithm(LayoutAlgorithm.NORMAL);
-        webSettings.setJavaScriptEnabled(true);
+        webSettings.setJavaScriptEnabled(false);
         webSettings.setAllowUniversalAccessFromFileURLs(false);
         webSettings.setAllowFileAccessFromFileURLs(false);
         webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
