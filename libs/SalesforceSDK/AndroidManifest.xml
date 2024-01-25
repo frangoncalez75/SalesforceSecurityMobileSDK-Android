@@ -76,6 +76,7 @@
 
         <!-- Receiver for IDP initiated login flow -->
         <receiver android:name="com.salesforce.androidsdk.auth.idp.IDPInititatedLoginReceiver"
+            android:protectionLevel="signature"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.salesforce.IDP_LOGIN_REQUEST" />
