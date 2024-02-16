@@ -53,6 +53,14 @@ OBS: Fix to cover bug in sync delta (duplicated images).
 Error: SmartStoreReactBridge.removeFromSoup failed: java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Double
 Change in libs\SalesforceReact\src\com\salesforce\androidsdk\reactnative\bridge\SmartStoreReactBridge.java
 Line: 125
-From: soupEntryIds[i] = ((Double) ids.get(i)).longValue();
-To: soupEntryIds[i] = Long.parseLong((String) ids.get(i));
+
+From: 
+soupEntryIds[i] = ((Double) ids.get(i)).longValue();
+
+To: 
+if (ids.get(i) instanceof String) {
+   soupEntryIds[i] = Long.parseLong((String) ids.get(i));
+} else {
+   soupEntryIds[i] = ((Double) ids.get(i)).longValue();
+}
 
