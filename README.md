@@ -49,3 +49,10 @@ To pull down the SDK from github, create a new directory and git clone the sales
 git clone https://github.com/frangoncalez75/SalesforceSecurityMobileSDK-Android.git
 </pre>
 
+OBS: Fix to cover bug in sync delta (duplicated images).
+Error: SmartStoreReactBridge.removeFromSoup failed: java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Double
+Change in libs\SalesforceReact\src\com\salesforce\androidsdk\reactnative\bridge\SmartStoreReactBridge.java
+Line: 125
+From: soupEntryIds[i] = ((Double) ids.get(i)).longValue();
+To: soupEntryIds[i] = Long.parseLong((String) ids.get(i));
+
