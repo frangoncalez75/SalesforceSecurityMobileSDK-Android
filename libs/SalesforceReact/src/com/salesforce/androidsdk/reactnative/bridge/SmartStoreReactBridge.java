@@ -122,7 +122,7 @@ public class SmartStoreReactBridge extends ReactContextBaseJavaModule {
                 List ids = ReactBridgeHelper.toJavaList(arraySoupEntryIds);
                 Long[] soupEntryIds = new Long[ids.size()];
                 for (int i = 0; i < ids.size(); i++) {
-                    soupEntryIds[i] = ((Double) ids.get(i)).longValue();
+                    soupEntryIds[i] = Long.parseLong((String) ids.get(i));
                 }
                 smartStore.delete(soupName, soupEntryIds);
             } else {
